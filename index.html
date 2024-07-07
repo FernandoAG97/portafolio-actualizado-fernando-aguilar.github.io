@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portafolio Fernando Aguilar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="less/style.less">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+</head>
+
+<body>
+
+    <!-- Barra de Navegación -->
+
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#index" class="active">Inicio</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#education">Educación</a>
+            <a href="#contact">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Panel de Héroe -->
+    <div class="container">
+        <div class="hero-image"></div>
+        <div class="hero-text">
+            <h1>Fernando Aguilar</h1>
+            <p>Estudiante de ICC</p>
+            <p>
+                Fernando Aguilar es un estudiante de la carrera de Ingeniería en Ciencias de la Computación <br>
+                con una disposición para buscar solución a un problema, aprender nuevas ideas, y liderar <br>
+                con positivismo.
+            </p>
+            <button>Contáctame</button>
+        </div>
+    </div>
+
+    <div id="projects" class="portfolio-section">
+        <h2 class="portfolio-title">Mis Proyectos</h2>
+        <hr size="5" color="black">
+
+        <!-- Business Card -->
+        <div class="business-cards">
+            <div class="business-card">
+                <img src="/coffee.jpeg" alt="logo coffeise" style="width:100%">
+                <h3>Coffeise Coffee Roasting</h3>
+                <hr size="2" width="70%">
+                <p>Desde la montaña a tus tazas. Café con el Auténtico Sabor a Honduras.</p>
+                <button>Ver Más ❯</button>
+            </div>
+
+            <div class="business-card">
+                <img src="/sq1.jpeg" alt="logo square one" style="width:100%">
+                <h3>SquareOne</h3>
+                <hr size="2" width="70%">
+                <p>Transpórtate a un mundo de entretenimiento con SquareOne!</p>
+                <button>Ver Más ❯</button>
+            </div>
+
+            <div class="business-card">
+              <img src="/power_room.jpeg" alt="logo power room" style="width:100%">
+              <h3>Power Room Gym</h3>
+              <hr size="2" width="70%">
+              <p>Donde la fuerza se encuentra con la excelencia.</p>
+              <button>Ver Más ❯</button>
+          </div>
+
+        </div>
+
+        
+    </div>
+
+    <!-- Tabla de Educación -->
+
+    <section id="education" class="Educacion" style="overflow-x:auto;">
+        <h2>Educación</h2>
+        <p>A continuación se muestra mi formación hasta el presente.</p>
+
+        <table>
+            <tr>
+                <th>Grado</th>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Primaria</td>
+                <td>Estancia School</td>
+                <td>Primaria</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>Bachillerato</td>
+                <td>England School</td>
+                <td>Bachillerato en Ciencias y Letras</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Universidad</td>
+                <td>UNICAH</td>
+                <td>Ingeniería en Ciencias de la Computación</td>
+                <td>TBD</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact" class="Contacto">
+
+        <h2 style="text-align:center; color: white; background-color: #1a1e31; padding: 20px;">Contáctame</h2>
+
+        <div class="calling-card">
+            <img src="/16848658890793240919946372181877.jpg" alt="John" style="width:100%">
+            <h1>Fernando A. Aguilar Gálvez</h1>
+            <p class="title">Estudiante de Ingeniería en Ciencias de la Computación</p>
+            <p>Universidad Católica de Honduras "Nuestra Señora Reina de la Paz"</p>
+
+
+            <li>Correo Electrónico: <h4>fa_aguilarg@unicah.edu</h4>
+            </li>
+            <li>Telefono: +504 8765-3650</li><br>
+
+            <div style="margin: 24px 0;">
+                <a href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
+                <a href="https://x.com/?lang=es"><i class="fa fa-twitter"></i></a>
+                <a href="https://es.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://es-la.facebook.com/login/device-based/regular/login/"><i
+                        class="fa fa-facebook"></i></a>
+            </div>
+            <p><button>Contacto</button></p>
+        </div>
+
+    </section>
+
+</body>
+
+<footer>
+
+    <footer><br>
+        <section>
+            <p>Fernando Aguilar &copy; 2024</p>
+        </section>
+    </footer>
+
+</footer>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    } 
+</script>
+
+</html>

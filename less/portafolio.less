@@ -1,0 +1,47 @@
+.portfolio-section {
+    background-color: @secondary-bg-color;
+    padding: 20px;
+    text-align: @alignment-center;
+  
+    .portfolio-title {
+      color: @primary-bg-color;
+      margin-bottom: 20px;
+    }
+  
+    .business-cards {
+      display: flex;
+      justify-content: @alignment-center;
+      flex-wrap: wrap;
+  
+      .business-card {
+        display: @display-inline-block;
+        background-color: @primary-bg-color;
+        margin: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(33% - 20px);
+        vertical-align: top;
+        border-radius: @border-radius;
+  
+        button {
+          margin-bottom: 5px;
+          background-color: #1a1e31;
+          color: @primary-bg-color;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+          border-radius: @border-radius;
+  
+          &:hover {
+            background-color: @secondary-text-color;
+            color: @secondary-bg-color;
+            text-decoration: underline;
+          }
+        }
+  
+        img {
+          border-radius: @border-radius;
+        }
+      }
+    }
+  }
+  
